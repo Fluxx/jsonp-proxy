@@ -4,6 +4,14 @@ This proxy was originally created by Mike Mayo (see root of fork), but I wanted 
 
 ## Example:
 
+Start the server with:
+
+```
+ruby app.rb
+```
+
+Sinatra is now running on port 4567.  Now, make a request to the proxy:
+
 ```
 http://localhost:4567/?jsonp=callback&u=http%3A//bitfluxx.com
 ```
